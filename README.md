@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# ⚠️ zero_day_terminal.exe
 
-First, run the development server:
+**ILLEGAL ROOT ACCESS PROTOCOL ACTIVATED**  
+_ALL ACTIVITIES LOGGED AND REPORTED TO AUTHORITIES_
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+
+### 🌌 Live Demo
+
+🔗 [Visit zero\_day\_terminal.exe ↗](https://zero-day-terminal.vercel.app/)
+
+> *“The void is listening. Proceed carefully.”*
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Let me know if you'd like a dark-themed banner, badge set, or Vercel deploy button included too.
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+### 🧠 About
 
-To learn more about Next.js, take a look at the following resources:
+`zero_day_terminal.exe` is a cinematic, terminal-style web experience built with **Next.js** and **Framer Motion**, designed to simulate a dark, corrupted system breach. From chilling boot sequences to an AI awakening protocol (codename: `ENTITY`), this terminal is designed to **immerse**, **unsettle**, and **entertain**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### 💣 Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Typewriter Terminal Engine**
+  - Delayed, animated command outputs
+- **Corrupted Boot Sequence**
+  - Simulates blacknet infiltration
+- **Command Interface**
+  - Supports basic and custom commands (e.g. `help`, `clear`, `entity`, `exitentity`)
+- **ENTITY AI Mode**
+  - Transforms the terminal into a hostile AI with dark theming and randomized evil outputs
+- **Self-destruct simulation**
+  - Try typing `n` during confirmation
+- **Responsive + Interactive**
+  - Minimize, maximize, and close window controls
+- **Built with:**
+  - Next.js
+  - Tailwind CSS
+  - Framer Motion
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+### 🧪 Commands
+
+| Command         | Description                                 |
+|----------------|---------------------------------------------|
+| `help`         | Shows all available commands                |
+| `clear`        | Clears the terminal                         |
+| `about`        | Info about this terminal                    |
+| `echo [text]`  | Repeats your message                        |
+| `restart`      | Restarts the terminal                       |
+| `entity`       | Awaken ENTITY AI                            |
+| `exitentity`   | Attempt to escape ENTITY (if you dare)      |
+| `infect`       | Inject blacknet virus                       |
+| `corrupt`      | Corrupt file system                         |
+| `blackout`     | Simulate system blackout                    |
+| `killfeed`     | Terminate fake users                        |
+| `glitch`       | Trigger display distortion                  |
+
+
+
+
+### 🧠 ENTITY MODE
+
+Activating `entity` will transform the terminal and unleash randomized evil responses.  
+To escape ENTITY, type `exitentity` multiple times... but **be warned** — it remembers.
+
+
+### 🔧 Setup & Run
+
+```bash
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+````
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+
+
+
+## Contact
+If you have any questions or feedback, please feel free to reach out.
+
+- **Telegram**: [@xerxescoder](https://t.me/xerxescoder)
+- **Telegram Channel**: [@xerxescodes](https://t.me/xerxescodes)
+- **Email**: [xerxescode@gmail.com](mailto:xerxescode@gmail.com)
+
+### 📦 License
+
+MIT License — use it, fork it, corrupt it.
+
