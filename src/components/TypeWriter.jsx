@@ -40,7 +40,7 @@ export default function TypewriterOutput({ text, speed = 20, delay = 0 }) {
     <span>
       {displayedText}
       {currentIndex < text.length && (
-        <span className={`inline-block w-2 h-5 align-middle ml-1 animate-blink font-prime`} />
+        <span className={`inline-block w-2 h-5 align-middle ml-1 animate-blink font-prime text-sm sm:text-base`} />
       )}
     </span>
   );

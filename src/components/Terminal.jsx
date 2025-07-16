@@ -63,10 +63,12 @@ export default function Terminal() {
 
     setHistory((prev) => [...prev, { text: command, type: "command" }]);
 
-    const [cmd, ...args] = command.split(" ");
+    const [cmd, ...args] = command.toLowerCase().split(" ");
 
     if (cmd === "entity" && !entityMode) {
-      setEntityMode(true);
+      setTimeout(() => {
+        setEntityMode(true);
+      }, 3000);
     }
 
     if (entityMode && cmd !== "exitentity") {
@@ -101,7 +103,7 @@ export default function Terminal() {
           setTimeout(() => {
             setEntityMode(false);
             setExitAttempt(0);
-          }, 5000);
+          }, 5500);
         } else {
           setExitAttempt((prev) => prev + 1);
           setHistory((prev) => [...prev, ...output]);
@@ -159,12 +161,12 @@ export default function Terminal() {
           animate={{
             opacity: 1,
             filter: "blur(0px)",
-            height: isMaximized ? "90vh" : isMinimized ? "40px" : "26rem",
+            height: isMaximized ? "90vh" : isMinimized ? "40px" : "30rem",
             width: isMaximized ? "100%" : isMinimized ? "16rem" : "100%",
           }}
           exit={{ opacity: 0, filter: "blur(140px)" }}
           transition={{ duration: 0.5 }}
-          className={`max-w-3xl ${
+          className={`max-w-4xl  ${
             isMaximized ? "max-w-7xl" : ""
           } rounded-lg overflow-hidden flex flex-col transition-all duration-300
             ${

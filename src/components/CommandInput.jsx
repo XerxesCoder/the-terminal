@@ -26,7 +26,7 @@ export default function CommandInput({ onCommand }) {
         type="text"
         value={input}
         onChange={(e) => setInput(e.target.value)}
-        className="bg-transparent text-matrix-green outline-none flex-1 font-prime caret-matrix-green"
+        className="bg-transparent text-matrix-green outline-none flex-1 font-prime caret-matrix-green text-sm sm:text-base"
         autoComplete="off"
         spellCheck="false"
       />
